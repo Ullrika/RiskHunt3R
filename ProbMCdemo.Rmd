@@ -3,11 +3,13 @@ title: "RiskHunt3r workshop on uncertainty"
 author: "Ullrika Sahlin, Dawei Tang and Elias Zgheib"
 date: '2022-07-08'
 output:
-  html_document: 
-    toc: true
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+  html_document:
+    toc: yes
     toc_depth: 2
-    self_contained: false
-
+    self_contained: no
 ---
 
 ```{r setup, include=FALSE}
